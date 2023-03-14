@@ -1,5 +1,5 @@
 # ITI CMS track LAB 1
-This project is about how to build a CMS track content in HTML format
+This project is about how to build a CMS track content in HTML and CSS format
 # Demo Preview
 ![lab-1-yasmine.jpg](./IMG/indexPage.jpg)
 
