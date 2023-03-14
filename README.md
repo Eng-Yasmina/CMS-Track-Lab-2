@@ -1,7 +1,9 @@
 # ITI CMS track LAB 1
 This project is about showing the ITI Website Implementation using CMS track's road map in HTML and CSS format
 # Demo Preview
-![lab-1-yasmine.jpg](./IMG/indexPage.jpg)
+![lab-1-yasmine.jpg](./images/ITI3.gif)
+![lab-1-yasmine.jpg](./images/ITI2.gif)
+![lab-1-yasmine.jpg](./images/ITI2%20106.png)
 
 
 # Table of contents
