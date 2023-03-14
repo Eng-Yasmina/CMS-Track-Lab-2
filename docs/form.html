@@ -1,0 +1,174 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>ITI</title>
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+</head>
+<body>
+    <header>
+        <a href="https://www.iti.gov.eg/iti/home" class="logo" target="_blank"><img src="images/logo.png" alt=""></a>
+        
+        <nav class="navigation__menu">
+            <ul id="navigation__list" class="nav__list">
+                <li>
+                    <a class="navigation__a" href="../index.html">Home</a>
+                </li>
+                <li>
+                    <a class="navigation__a" href="road map.html" target="_blank">Road Map</a>
+                </li>
+                <li>
+                    <a class="navigation__a" href="" target="_blank">Registeration Form</a>
+                </li>
+                <li>
+                    <a href="https://www.iti.gov.eg/iti/home" class="navigation__a" target="_blank">Contact</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="FormPage">
+        <article class="FormPage__container">
+            <h1 class="title">
+                Register - Create Account
+            </h1>
+            <em>
+                <p>
+                    Field marked with <span class="required"></span> are compulsory fields
+                </p>
+            </em>
+            <form action="https://formspree.io/f/xrgdolww" method="post">
+                <table>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="username" class="required label">Your Name</label>
+                        </td>
+                        <td>
+                            <div  class="input-container">
+                                <input type="text" name="username" id="username" required placeholder=" ">
+                                <div class="input-box"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="email" class="required label">E-Mail ID</label>
+                        </td>
+                        <td >
+                            <div  class="input-container">
+                                <input type="text" name="email" id="email" required placeholder=" ">
+                                <div class="input-box"></div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="phone" class="label">Your Phone</label>
+                        </td>
+                        <td class="phone-container">
+                            <div class="phone-fields">
+                                <div class="phone__field">
+                                    <input type="text" name="phone-field1" class="field" required placeholder=" ">
+                                    <label for="phone-field1" class="phone__field__name">
+                                        <span class="phone__field__content">Country Code</span>
+                                    </label>
+                                </div>
+                                <div class="phone__field">
+                                    <input type="text" name="phone-field1" class="field" required placeholder=" "> 
+                                    <label for="phone-field2" class="phone__field__name">
+                                        <span class="phone__field__content">City Code</span>
+                                    </label>
+                                </div>
+                                <div class="phone__field">
+                                    <input type="text" name="phone-field3" class="field" required placeholder=" ">
+                                    <label for="phone-field3" class="phone__field__name">
+                                        <span class="phone__field__content">Phone Number</span>
+                                    </label>
+                                </div>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="useraddress" class="required label">Your Postal Address</label>
+                        </td>
+                        <td>
+                            <textarea name="useraddress" id="address" cols="80" rows="2"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="usercountry" class="required label">Country</label>
+                        </td>
+                        <td>
+                            <div class="select-container">
+                                <select name="usercountry" id="country" class="text__form">
+                                    <option value="select" disabled selected>-- Select One --</option>
+                                    <option value="us">Egypt</option>
+                                    <option value="us">United States</option>
+                                    <option value="us">Saudi Arabia</option>
+                                </select>
+                            </div>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td class="outerlabel">
+                            <label for="userpassword" class="required label">Password</label>
+                        </td>
+                        <td>
+                            <div  class="input-container">
+                                <input type="password" name="userpassword" id="Password" placeholder=" ">
+                                <div class="input-box"></div>
+                            </div>
+                        </td>
+                    </tr>
+                </table>
+                <input type="checkbox" checked> I accept the <em>
+                    <a href="https://www.iti.gov.eg/iti/about-us" target="_blank"><strong>Tearms of Use</strong></a>
+                </em>
+                <div class="submit__container">
+                    <input type="submit" value="Continue &gt;&gt;" class="submit">
+                    <input type="reset" value="Reset" class="reset">
+                </div>
+            </form>
+        </article>
+    </section>
+
+    <footer>
+        <div class="container footer__container">
+
+            <div class="footer__2">
+                <h4>FOLLOW US</h4>
+                
+
+                <ul class="footer__socials">
+                    <li>
+                        <a href="https://www.facebook.com/ITIchannel/" target="_blank"><img class="soc" src="images/facebook.png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://www.youtube.com/user/itichannel" target="_blank"><img class="soc" src="images/youtube (1).png" alt=""></a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/iti_channel" target="_blank"><img class="soc" src="images/twitter.png" alt=""></a>
+                    </li>
+                </ul>
+
+            </div>
+
+            <div class="footer__1">
+                <a href="index.html"  class="logo"><img src="images/logo.png" alt=""></a>
+                <div>
+                    <p>(+202) 353-55656<br>@iti.gov.eg</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="developer"><small>Copyright 2023 by Noha Salah &#174;</small></div>
+    </footer>
+</body>
+</html>
